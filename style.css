@@ -96,6 +96,7 @@ ul.linkki li a {
   }
 
   h2 {
+    text-align: end;
     font-size: 30px;
     padding: 40px;
   }
