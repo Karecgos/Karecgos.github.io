@@ -75,6 +75,11 @@ ul.linkki li a:hover:not(.active) {
     position: relative;
   }
 
+  aside {
+    float: left;
+    width: 50%;
+  }
+
   h2 {
     color: #fff;
     font-size: 40px;
@@ -95,17 +100,21 @@ ul.linkki li a {
     float: none;
   }
 
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  aside {
+    float: none;
+    width: 100%;
+  }
+
   h2 {
     font-size: 30px;
     padding: 50px;
   }
 
-}
-
-
-aside {
-  float: left;
-  width: 50%;
 }
 
 dt {
